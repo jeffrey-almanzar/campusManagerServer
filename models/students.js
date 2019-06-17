@@ -1,6 +1,8 @@
 const Sequelize = require('sequelize');
 const database = require('../database');
 
+//module
+
 const Students =  database.define('students', {
     //create name and material as strings,
     id:{
@@ -22,3 +24,5 @@ const Students =  database.define('students', {
    });
 
    module.exports = Students;
+
+   
